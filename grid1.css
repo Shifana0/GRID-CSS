@@ -1,0 +1,32 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    gap: 10px;
+    background-color: rgb(17, 17, 53);
+}
+.container div{
+  padding: 70px;
+  border: 1px solid;
+  
+}
+.one{
+    grid-column: 1/2;
+    grid-row: 1/4;
+    background-color: green;
+}
+.two{
+    background-color: green;
+    grid-column: 2/4;
+}
+.three,.five,.seven{
+    background-color: red;
+}
+.four,.eight{
+    background-color: orange;
+}
+.six{
+    background-color: green;
+    grid-column:4/5;
+    grid-row: 2/4;
+  
+}
